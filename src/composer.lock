@@ -11042,16 +11042,16 @@
         },
         {
             "name": "scandipwa/catalog-graphql",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/catalog-graphql.git",
-                "reference": "742a5e9d14c4b72f22abc3b2f453679656895eb9"
+                "reference": "555ac6816e6e21839f1e60f0f8cae1a1cf6c95d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/catalog-graphql/zipball/742a5e9d14c4b72f22abc3b2f453679656895eb9",
-                "reference": "742a5e9d14c4b72f22abc3b2f453679656895eb9",
+                "url": "https://api.github.com/repos/scandipwa/catalog-graphql/zipball/555ac6816e6e21839f1e60f0f8cae1a1cf6c95d4",
+                "reference": "555ac6816e6e21839f1e60f0f8cae1a1cf6c95d4",
                 "shasum": ""
             },
             "require": {
@@ -11077,7 +11077,7 @@
                 "pwa",
                 "scandipwa"
             ],
-            "time": "2019-03-27T09:00:34+00:00"
+            "time": "2019-04-03T16:05:40+00:00"
         },
         {
             "name": "scandipwa/cms-graphql",
@@ -11122,40 +11122,6 @@
                 "scandipwa"
             ],
             "time": "2019-03-08T15:16:43+00:00"
-        },
-        {
-            "name": "scandipwa/customer-graph-ql",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/scandipwa/customer-graph-ql.git",
-                "reference": "536a09f8d2c3e677d751f7abda2083d6aaccf15b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/customer-graph-ql/zipball/536a09f8d2c3e677d751f7abda2083d6aaccf15b",
-                "reference": "536a09f8d2c3e677d751f7abda2083d6aaccf15b",
-                "shasum": ""
-            },
-            "require": {
-                "magento/product-community-edition": "2.3.1"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "src/registration.php"
-                ],
-                "psr-4": {
-                    "ScandiPWA\\CustomerGraphQl\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A",
-            "time": "2019-03-27T09:23:49+00:00"
         },
         {
             "name": "scandipwa/installer",
@@ -11416,13 +11382,12 @@
             "dist": {
                 "type": "path",
                 "url": "localmodules/base-theme",
-                "reference": "af8cfbb7b8aa9b0b0b6d3bcbe68e4dffae387c35"
+                "reference": "c15fa4c9a7339cb594aad6202b068700fbf0bd06"
             },
             "require": {
                 "magento/product-community-edition": "2.3.1",
                 "scandipwa/catalog-graphql": "^1.2",
                 "scandipwa/cms-graphql": "^1.0",
-                "scandipwa/customer-graph-ql": "^1.1",
                 "scandipwa/menu-organizer": "^1.0",
                 "scandipwa/persisted-query": "^1.0",
                 "scandipwa/route717": "^1.0",
@@ -18000,6 +17965,40 @@
             ],
             "abandoned": true,
             "time": "2018-08-09T05:50:03+00:00"
+        },
+        {
+            "name": "scandipwa/customer-graph-ql",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scandipwa/customer-graph-ql.git",
+                "reference": "536a09f8d2c3e677d751f7abda2083d6aaccf15b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scandipwa/customer-graph-ql/zipball/536a09f8d2c3e677d751f7abda2083d6aaccf15b",
+                "reference": "536a09f8d2c3e677d751f7abda2083d6aaccf15b",
+                "shasum": ""
+            },
+            "require": {
+                "magento/product-community-edition": "2.3.1"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-4": {
+                    "ScandiPWA\\CustomerGraphQl\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2019-03-27T09:23:49+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
