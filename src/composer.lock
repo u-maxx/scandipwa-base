@@ -11204,6 +11204,52 @@
             "time": "2019-03-08T15:33:49+00:00"
         },
         {
+            "name": "scandipwa/migrations",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scandipwa/migrations.git",
+                "reference": "c27b32bd83dc60f3a68dab8945c272b331522755"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scandipwa/migrations/zipball/c27b32bd83dc60f3a68dab8945c272b331522755",
+                "reference": "c27b32bd83dc60f3a68dab8945c272b331522755",
+                "shasum": ""
+            },
+            "require": {
+                "magento/product-community-edition": "^2.3"
+            },
+            "type": "magento2-theme",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-4": {
+                    "ScandiPWA\\Migrations\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Vladimirs Mihnovics",
+                    "email": "vladimirs.mihnovics@scandiweb.com"
+                }
+            ],
+            "description": "ScandiPWA migrations module",
+            "keywords": [
+                "magento2",
+                "migrations",
+                "pwa",
+                "scandipwa",
+                "theme"
+            ],
+            "time": "2019-04-04T13:40:41+00:00"
+        },
+        {
             "name": "scandipwa/persisted-query",
             "version": "1.1.1",
             "source": {
