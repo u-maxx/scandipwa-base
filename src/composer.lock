@@ -11042,16 +11042,16 @@
         },
         {
             "name": "scandipwa/catalog-graphql",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/catalog-graphql.git",
-                "reference": "555ac6816e6e21839f1e60f0f8cae1a1cf6c95d4"
+                "reference": "343ce5db6b8d7682fa8617745fc7fc38aa7b7c76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/catalog-graphql/zipball/555ac6816e6e21839f1e60f0f8cae1a1cf6c95d4",
-                "reference": "555ac6816e6e21839f1e60f0f8cae1a1cf6c95d4",
+                "url": "https://api.github.com/repos/scandipwa/catalog-graphql/zipball/343ce5db6b8d7682fa8617745fc7fc38aa7b7c76",
+                "reference": "343ce5db6b8d7682fa8617745fc7fc38aa7b7c76",
                 "shasum": ""
             },
             "require": {
@@ -11077,7 +11077,7 @@
                 "pwa",
                 "scandipwa"
             ],
-            "time": "2019-04-03T16:05:40+00:00"
+            "time": "2019-04-07T11:56:49+00:00"
         },
         {
             "name": "scandipwa/cms-graphql",
@@ -11202,52 +11202,6 @@
             ],
             "description": "Scandiweb Menu Organizer for ScandiPWA",
             "time": "2019-03-08T15:33:49+00:00"
-        },
-        {
-            "name": "scandipwa/migrations",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/scandipwa/migrations.git",
-                "reference": "c27b32bd83dc60f3a68dab8945c272b331522755"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/migrations/zipball/c27b32bd83dc60f3a68dab8945c272b331522755",
-                "reference": "c27b32bd83dc60f3a68dab8945c272b331522755",
-                "shasum": ""
-            },
-            "require": {
-                "magento/product-community-edition": "^2.3"
-            },
-            "type": "magento2-theme",
-            "autoload": {
-                "files": [
-                    "src/registration.php"
-                ],
-                "psr-4": {
-                    "ScandiPWA\\Migrations\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Vladimirs Mihnovics",
-                    "email": "vladimirs.mihnovics@scandiweb.com"
-                }
-            ],
-            "description": "ScandiPWA migrations module",
-            "keywords": [
-                "magento2",
-                "migrations",
-                "pwa",
-                "scandipwa",
-                "theme"
-            ],
-            "time": "2019-04-04T13:40:41+00:00"
         },
         {
             "name": "scandipwa/persisted-query",
@@ -11379,21 +11333,21 @@
         },
         {
             "name": "scandipwa/slider-graphql",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/slider-graphql.git",
-                "reference": "33be43e07b389cf912109bba2dfb09a2158641b6"
+                "reference": "917a1d90adada0d561a811572403a11be3570614"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/slider-graphql/zipball/33be43e07b389cf912109bba2dfb09a2158641b6",
-                "reference": "33be43e07b389cf912109bba2dfb09a2158641b6",
+                "url": "https://api.github.com/repos/scandipwa/slider-graphql/zipball/917a1d90adada0d561a811572403a11be3570614",
+                "reference": "917a1d90adada0d561a811572403a11be3570614",
                 "shasum": ""
             },
             "require": {
-                "magento/module-graph-ql": "*",
-                "scandipwa/slider": "*"
+                "magento/product-community-edition": "2.3.1",
+                "scandipwa/slider": "^1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -11420,7 +11374,7 @@
                 "pwa",
                 "scandipwa"
             ],
-            "time": "2019-03-08T15:40:04+00:00"
+            "time": "2019-04-06T12:35:01+00:00"
         },
         {
             "name": "scandipwa/source",
@@ -18045,6 +17999,52 @@
             ],
             "description": "N/A",
             "time": "2019-03-27T09:23:49+00:00"
+        },
+        {
+            "name": "scandipwa/migrations",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scandipwa/migrations.git",
+                "reference": "c27b32bd83dc60f3a68dab8945c272b331522755"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scandipwa/migrations/zipball/c27b32bd83dc60f3a68dab8945c272b331522755",
+                "reference": "c27b32bd83dc60f3a68dab8945c272b331522755",
+                "shasum": ""
+            },
+            "require": {
+                "magento/product-community-edition": "^2.3"
+            },
+            "type": "magento2-theme",
+            "autoload": {
+                "files": [
+                    "src/registration.php"
+                ],
+                "psr-4": {
+                    "ScandiPWA\\Migrations\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Vladimirs Mihnovics",
+                    "email": "vladimirs.mihnovics@scandiweb.com"
+                }
+            ],
+            "description": "ScandiPWA migrations module",
+            "keywords": [
+                "magento2",
+                "migrations",
+                "pwa",
+                "scandipwa",
+                "theme"
+            ],
+            "time": "2019-04-04T13:40:41+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
