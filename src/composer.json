@@ -11,10 +11,10 @@
         "sort-packages": true
     },
     "require": {
-        "magento/product-community-edition": "2.3.0",
+        "magento/product-community-edition": "2.3.1",
         "scandipwa/installer": "^1.0",
         "scandipwa/migrations": "^1.0",
-        "scandipwa/source": "dev-my-account-frontend as 1.2.0-dev"
+        "scandipwa/sitemap": "^1.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~2.13.0",
@@ -60,7 +60,7 @@
             "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
         }
     },
-    "version": "2.3.0",
+    "version": "2.3.1",
     "minimum-stability": "stable",
     "repositories": [
         {
