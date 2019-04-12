@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "faba9d709bba5a32f51d6ef8aded7b78",
+    "content-hash": "289cd13ee2cd8bf3384223bfcac88d3f",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -11552,12 +11552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/base-theme.git",
-                "reference": "2a159043ac4e82eab7152928d948cb2efd4d0324"
+                "reference": "1bc8ee48227e886c61d966dc0511a943147f9717"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/2a159043ac4e82eab7152928d948cb2efd4d0324",
-                "reference": "2a159043ac4e82eab7152928d948cb2efd4d0324",
+                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/1bc8ee48227e886c61d966dc0511a943147f9717",
+                "reference": "1bc8ee48227e886c61d966dc0511a943147f9717",
                 "shasum": ""
             },
             "require": {
@@ -11609,7 +11609,7 @@
                 "scandipwa",
                 "source"
             ],
-            "time": "2019-04-12T12:13:01+00:00"
+            "time": "2019-04-12T13:16:52+00:00"
         },
         {
             "name": "scandiweb/locale-resolver-fix",
@@ -19628,8 +19628,8 @@
             "package": "scandipwa/quote-graphql"
         },
         {
-            "alias": "1.2.5-dev",
-            "alias_normalized": "1.2.5.0-dev",
+            "alias": "1.2.6-dev",
+            "alias_normalized": "1.2.6.0-dev",
             "version": "dev-checkout",
             "package": "scandipwa/source"
         }
