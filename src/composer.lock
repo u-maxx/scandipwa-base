@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "289cd13ee2cd8bf3384223bfcac88d3f",
+    "content-hash": "0bf4f93bfca12855fa02db0301879ced",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -636,16 +636,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.8.4",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "bc364c2480c17941e2135cfc568fa41794392534"
+                "reference": "949b116f9e7d98d8d276594fed74b580d125c0e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/bc364c2480c17941e2135cfc568fa41794392534",
-                "reference": "bc364c2480c17941e2135cfc568fa41794392534",
+                "url": "https://api.github.com/repos/composer/composer/zipball/949b116f9e7d98d8d276594fed74b580d125c0e6",
+                "reference": "949b116f9e7d98d8d276594fed74b580d125c0e6",
                 "shasum": ""
             },
             "require": {
@@ -712,7 +712,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2019-02-11T09:52:10+00:00"
+            "time": "2019-04-09T15:46:48+00:00"
         },
         {
             "name": "composer/semver",
@@ -11336,12 +11336,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/quote-graphql.git",
-                "reference": "a4adb5842f9a6edde39aa15e06f27b9007d77a05"
+                "reference": "4e42831072ad9170e537fd332d70ba5f868572d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/quote-graphql/zipball/a4adb5842f9a6edde39aa15e06f27b9007d77a05",
-                "reference": "a4adb5842f9a6edde39aa15e06f27b9007d77a05",
+                "url": "https://api.github.com/repos/scandipwa/quote-graphql/zipball/4e42831072ad9170e537fd332d70ba5f868572d6",
+                "reference": "4e42831072ad9170e537fd332d70ba5f868572d6",
                 "shasum": ""
             },
             "require": {
@@ -11372,7 +11372,7 @@
                 }
             ],
             "description": "N/A",
-            "time": "2019-04-12T08:42:23+00:00"
+            "time": "2019-04-15T16:32:24+00:00"
         },
         {
             "name": "scandipwa/route717",
@@ -11548,16 +11548,16 @@
         },
         {
             "name": "scandipwa/source",
-            "version": "1.2.6",
+            "version": "dev-checkout",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scandipwa/base-theme.git",
-                "reference": "257a095c6c338657d7016684197b7d6d372fcc7b"
+                "reference": "92789b911ea1ee58d6c874cb260380932174791e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/257a095c6c338657d7016684197b7d6d372fcc7b",
-                "reference": "257a095c6c338657d7016684197b7d6d372fcc7b",
+                "url": "https://api.github.com/repos/scandipwa/base-theme/zipball/92789b911ea1ee58d6c874cb260380932174791e",
+                "reference": "92789b911ea1ee58d6c874cb260380932174791e",
                 "shasum": ""
             },
             "require": {
@@ -11609,7 +11609,7 @@
                 "scandipwa",
                 "source"
             ],
-            "time": "2019-04-12T13:44:16+00:00"
+            "time": "2019-04-15T16:31:12+00:00"
         },
         {
             "name": "scandiweb/locale-resolver-fix",
@@ -17130,20 +17130,20 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "78af75148f9fdd34ea727c8b529a9b4a8f7b740c"
+                "reference": "e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/78af75148f9fdd34ea727c8b529a9b4a8f7b740c",
-                "reference": "78af75148f9fdd34ea727c8b529a9b4a8f7b740c",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72",
+                "reference": "e6828efaba2c9b79f4499dae1d66ef8bfa7b2b72",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2"
+                "php": "^7.1"
             },
             "replace": {
                 "myclabs/deep-copy": "self.version"
@@ -17151,8 +17151,6 @@
             "require-dev": {
                 "doctrine/collections": "^1.0",
                 "doctrine/common": "^2.6",
-                "phpstan/phpstan": "^0.9.2",
-                "phpstan/phpstan-phpunit": "^0.9.4",
                 "phpunit/phpunit": "^7.1"
             },
             "type": "library",
@@ -17176,7 +17174,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2018-10-30T00:14:44+00:00"
+            "time": "2019-04-07T13:18:21+00:00"
         },
         {
             "name": "pdepend/pdepend",
@@ -19622,22 +19620,22 @@
     ],
     "aliases": [
         {
-            "alias": "0.1.0-dev",
-            "alias_normalized": "0.1.0.0-dev",
-            "version": "9999999-dev",
-            "package": "scandipwa/quote-graphql"
-        },
-        {
             "alias": "1.2.6-dev",
             "alias_normalized": "1.2.6.0-dev",
             "version": "dev-checkout",
             "package": "scandipwa/source"
+        },
+        {
+            "alias": "0.1.0-dev",
+            "alias_normalized": "0.1.0.0-dev",
+            "version": "9999999-dev",
+            "package": "scandipwa/quote-graphql"
         }
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "scandipwa/quote-graphql": 20,
         "scandipwa/source": 20,
+        "scandipwa/quote-graphql": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": false,
